@@ -1,21 +1,21 @@
 function inicio() {
-    // let padaria = [
-        // {
-            // produto: 'pão',
-            // preco: 0.5,
-            // quant: 3
-        // },
-        // {
-            // produto: 'rosca',
-            // preco: 3.5,
-            // quant: 2
-        // },
-        // {
-            // produto: 'brinquinho',
-            // preco: 1.0,
-            // quant: 50
-        // }
-    // ]
+     let padaria = [
+         {
+             produto: 'pão',
+             preco: 0.5,
+             quant: 3
+         },
+         {
+             produto: 'rosca',
+             preco: 3.5,
+             quant: 2
+         },
+         {
+             produto: 'brinquinho',
+             preco: 1.0,
+             quant: 50
+         }
+     ]
  };
 
 console.log(padaria);
@@ -23,9 +23,9 @@ console.log(padaria);
 //indicar a posição dele, e o titulo
 console.log(padaria[2].produto)
 
-// for(let c = 0; c < padaria.length; c++){
-    // console.log(`Produto: ${c+1}, custa ${padaria[c].preco}`)
-// }
+for(let c = 0; c < padaria.length; c++){
+     console.log(`Produto: ${c+1}, custa ${padaria[c].preco}`)
+}
 
 let padaria = []
 
